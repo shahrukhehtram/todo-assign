@@ -1,4 +1,4 @@
-GET http://localhost:3000/todos/?status=TO%20DO 
+GET http://localhost:3000/todos/?category=HOME 
 
 ###
 GET http://localhost:3000/todos/2
@@ -7,7 +7,7 @@ GET http://localhost:3000/todos/2
 GET http://localhost:3000/agenda/?date=2021-12-12
 
 ###
-POST http://localhost:3000/todos/ 
+POST http://localhost:3000/todos/?status=poo
 Content-Type: application/json 
 
 {
